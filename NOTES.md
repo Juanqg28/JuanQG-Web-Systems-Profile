@@ -1,6 +1,6 @@
 # Translation Notes
 
-**Student:** [Your name]
+**Student:** [Juan Quinche]
 **Course:** [Inglés I / Inglés II]
 **Date:** [dd/mm/yyyy]
 
