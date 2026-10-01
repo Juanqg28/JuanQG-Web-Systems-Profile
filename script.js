@@ -1,15 +1,9 @@
 /* ============================================================
-   WEB PROFILE TEMPLATE - SCRIPT
-   UniEspinal · Técnico Profesional en Programación Web
+   WEB PROFILE - SCRIPT
+   Juan Andrés Quinche García · UniEspinal
+   Técnico Profesional en Programación Web
 
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
-
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
+   Dos diccionarios: ES y EN, con exactamente las mismas claves.
    ============================================================ */
 
 
@@ -27,13 +21,13 @@ const ES = {
   "hero.role": "Desarrollador Web · Soporte Técnico",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
+  "about.text":           "Estudio Programación Web en UniEspinal y me gusta construir páginas responsivas con HTML, CSS y JavaScript. También disfruto ayudar a otros a resolver problemas técnicos. Entre código, tareas y partidas de videojuegos, sobrevivo a la universidad como si la vida estuviera en modo difícil. Busco una práctica donde pueda aprender y aportar.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
+  "about.valueLocation":  "Espinal, Colombia",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
+  "about.valueLanguages": "Español (nativo) · Inglés (B1)",
   "about.labelStatus":    "Disponibilidad",
   "about.valueStatus":    "Abierto a prácticas",
   "about.interestsTitle": "Intereses",
@@ -56,39 +50,31 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.text":  "Aprendo a crear sitios y aplicaciones web con HTML, CSS, JavaScript y bases de datos MySQL.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "exp.1.title": "Proyectos académicos",
+  "exp.1.text":  "Desarrollé páginas web responsivas con HTML, CSS y JavaScript, y manejé el control de versiones con Git y GitHub.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "Mi perfil web",
+  "project.1.text":  "HTML, CSS, JavaScript",
+  "project.2.title": "Próximamente",
+  "project.2.text":  "HTML, CSS",
+  "project.3.title": "Próximamente",
+  "project.3.text":  "JavaScript, MySQL",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
+  "contact.intro":         "¿Tienes una práctica, un proyecto o solo quieres saludar? Escríbeme.",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "contact.linkedinValue": "Mi perfil profesional",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Juan Andrés Quinche García · Técnico Profesional en Programación Web · UniEspinal"
 };
 
 
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
+   (Reescrito, no traducido palabra por palabra)
    ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
@@ -101,13 +87,13 @@ const EN = {
   "hero.role": "Web Developer · Technical Support",
 
   "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
+  "about.text":           "I'm a Web Programming student at UniEspinal who enjoys building responsive websites with HTML, CSS and JavaScript. I also like helping people solve technical problems. Between code, assignments and gaming sessions, I survive university as if life were on hard mode. I'm looking for an internship where I can learn and contribute.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
+  "about.valueLocation":  "Espinal, Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
+  "about.valueLanguages": "Spanish (native) · English (B1)",
   "about.labelStatus":    "Availability",
   "about.valueStatus":    "Open to internships",
   "about.interestsTitle": "Interests",
@@ -130,35 +116,31 @@ const EN = {
   "resume.experience": "Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.text":  "Learning to build websites and web applications with HTML, CSS, JavaScript and MySQL databases.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "exp.1.title": "Academic projects",
+  "exp.1.text":  "Built responsive web pages with HTML, CSS and JavaScript, and managed code versions with Git and GitHub.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "My web profile",
+  "project.1.text":  "HTML, CSS, JavaScript",
+  "project.2.title": "Coming soon",
+  "project.2.text":  "HTML, CSS",
+  "project.3.title": "Coming soon",
+  "project.3.text":  "JavaScript, MySQL",
 
   "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
+  "contact.intro":         "Have an internship, a project or a vacancy? Send me a message.",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "contact.linkedinValue": "My professional profile",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "footer.note": "Juan Andrés Quinche García · Professional Technician in Web Programming · UniEspinal"
 };
 
 
 /* ============================================================
    3. LANGUAGE SWITCHER
-   You do not need to change the code below.
+   No necesitas cambiar nada de aquí hacia abajo.
    ============================================================ */
 
 const DICCIONARIOS = { es: ES, en: EN };
@@ -218,10 +200,7 @@ function cerrarMenu() {
 
 /* ============================================================
    5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
+   El ancho viene del atributo data-percent en index.html.
    ============================================================ */
 
 function animarHabilidades() {
